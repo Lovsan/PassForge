@@ -27,11 +27,21 @@ cd PassForge
 # Install dependencies
 pip install -r setup/requirements.txt
 ```
+Usage
+bash
+# Local development
+python -m flask run
+
 
 ## Usage 🚀 
+*Local execution*
 ```bash
-# Local execution
+python -m flask run
+```
+*production*
+```bash
 python -m waitress --port=5000 app:app
+```
 
 # Remote access via Ngrok
 ngrok_config/ngrok.bat
