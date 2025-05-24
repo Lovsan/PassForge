@@ -19,15 +19,33 @@ cd PassForge
 
 # Install dependencies
 pip install -r setup/requirements.txt
+```
 
-## Usage ! start the script
+## Usage 🚀 
 ```bash
-py _init.py
-head to http://localhost:5000
-enjoy
+# Local execution
+python -m waitress --port=5000 app:app
 
-# optionally you can make the standalone exe and just open the exe file.
+# Remote access via Ngrok
+ngrok_config/ngrok.bat
+```
+
+## Wordlist Sources 📚
+
++ Name	Entries	Use Case [link_coming_soon]
++ RockYou	32M	Common passwords [link_coming_soon]
++ Xato Net	5.1M	Modern breaches [link_coming_soon]
++  EFF Long	7,776	Secure passphrases2 [link_coming_soon]
++ CUPP	Custom	Targeted profiling11 [link_coming_soon]
 
 # Build executable
 setup/build_exe.bat# PassForge
 generate password lists easily.
+
+**Security Notice: Use only for authorized penetration testing. Never engage in illegal activities.**
+
+### **Implementation Notes**
+1. **Standalone EXE**: Uses PyInstaller with resource embedding
+2. **Ngrok Integration**: Auto-starts tunnel with bat file:cite[3]
+3. **Wordlist Management**: Pre-loaded + dynamic download system
+4. **Security**: Rate limiting & input sanitization
