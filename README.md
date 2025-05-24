@@ -27,11 +27,6 @@ cd PassForge
 # Install dependencies
 pip install -r setup/requirements.txt
 ```
-Usage
-bash
-# Local development
-python -m flask run
-
 
 ## Usage 🚀 
 *Local execution*
