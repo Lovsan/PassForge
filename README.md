@@ -2,7 +2,7 @@
 
 Advanced password list generator with hybrid mutation engine and wordlist integration
 
-![PassForge Demo](app/static/img/demo.png)
+![PassForge Demo](logo_password.png)
 
 ## Features ✨
 - **15+ Generation Patterns** (Leet, Padding, Year Suffix) :cite[1]
@@ -49,3 +49,4 @@ generate password lists easily.
 2. **Ngrok Integration**: Auto-starts tunnel with bat file:cite[3]
 3. **Wordlist Management**: Pre-loaded + dynamic download system
 4. **Security**: Rate limiting & input sanitization
+
