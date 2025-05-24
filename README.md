@@ -45,7 +45,7 @@ python -m waitress --port=5000 app:app
 ## Wordlist Sources 📚
 
 **Name	Entries	Use Case**
-+ RockYou	32M	Common passwords [download] - (https://github.com/kkrypt0nn/wordlists/blob/main/Passwords/rockyou.txt)
++ RockYou	32M	Common passwords [[download] - (https://github.com/kkrypt0nn/wordlists/blob/main/Passwords/rockyou.txt)](https://github.com/kkrypt0nn/wordlists/blob/main/Passwords/rockyou.txt)
 + Xato.Net 5.1M	Modern breaches [download - (https://github.com/kkrypt0nn/wordlists/blob/main/Passwords/xato-net-passwords.txt)]
 + Psudohash 7,776	Pattern-based mutations	[download - (https://github.com/t3l3machus/psudohash)]
 + CUPP custom	User-specific profiling	[download - (https://github.com/Mebus/cupp)]
